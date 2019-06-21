@@ -1,0 +1,60 @@
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #16161D;
+  color: #fff;
+  padding: 60px 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+main {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: max-content;
+  grid-auto-flow: row-dense;
+}
+
+.article {
+  margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  width: 300px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
